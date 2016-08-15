@@ -1,1 +1,1 @@
-# js-algorithm
+# 使用js实现常用算法
