@@ -1,6 +1,6 @@
 /*
  *直接插入排序
- *时间复杂度O(n<sup>2</sup>)
+ *时间复杂度O(n²)
  */
 var straightInsertionSort = function(arr) {
     if (!Array.isArray(arr)) throw new Error('参数不是数组');
