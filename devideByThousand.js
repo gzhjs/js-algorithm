@@ -3,7 +3,7 @@
 */
 
 //方法1
-function addComma(num) {
+function devideByThousand(num) {
     if (typeof num !== 'number') throw new TypeError('不是数字');
 
     if (num < 1000) return '' + num;
