@@ -29,3 +29,5 @@ function printArrayBySlash(arr) {
 
     console.log(res.join(','));
 }
+
+module.exports = printArrayBySlash;
