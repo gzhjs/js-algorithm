@@ -30,3 +30,7 @@ function devideByThousand2(num) {
 
     return ('' + num).replace(/(\d{1,3})(?=(\d{3})+)/g, '$1,');
 }
+
+
+exports.devideByThousand = devideByThousand;
+exports.devideByThousand2= devideByThousand2;
