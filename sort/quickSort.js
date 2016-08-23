@@ -18,7 +18,7 @@ function quickSort(arr) {
 }
     
 //第二种方法 尽量避免使用数组方法，代码量大
-function quickSort(arr) {
+function quickSort2(arr) {
     var len = arr.length;
 
     if (len <= 1) return arr;
@@ -51,5 +51,8 @@ function quickSort(arr) {
     }
 
 
-    return quickSort(left).concat([arr[mid]], quickSort(right));
+    return quickSort2(left).concat([arr[mid]], quickSort2(right));
 }
+
+exports.quickSort = quickSort;
+exports.quickSort2 = quickSort2;
